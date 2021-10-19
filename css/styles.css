@@ -1,0 +1,141 @@
+body {
+  background-color: #F9F6EE;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  font-family: 'Zilla Slab', serif;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  color: #CEE5D0;
+  position: relative;
+  top: 10%;
+  margin-top: 0;
+  text-shadow: 0.5vw .5vw #082032;
+}
+
+h2 {
+  color: #082032;
+  font-size: 3rem;
+}
+
+h3 {
+  margin: 2px auto;
+}
+
+p {
+  position: relative;
+  top: 10%;
+  margin: 0;
+}
+
+hr {
+  color: #DBD0C0;
+  width: 15%;
+  border-style: dotted none none none;
+  border-width: 10px;
+  margin: 10% auto;
+}
+
+.title {
+  color: #F9F6EE;
+  font-size: 2.5vw;
+  margin: auto;
+  font-weight: 700;
+}
+
+.top-container {
+  background-image:
+    url("../images/desk4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 56vw;
+}
+
+.bar-container {
+  background-color: #CEE5D0;
+}
+
+.nav-bar {
+  display: inline-block;
+  width: 30%;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.profile {
+  width: 50%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 65%;
+  margin: 10px auto 10px auto;
+  text-align: left;
+}
+
+.dev-icons {
+  width: 15%;
+  margin-right: 30px;
+  float: left;
+}
+
+.credit {
+  font-size: 8px;
+  clear: left;
+}
+
+.napa-artesia {
+  width: 50%;
+  margin: auto auto auto 30px;
+  float: right;
+}
+
+.contact-me {
+  clear: right;
+}
+
+.BUTTON_ONN {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 50px;
+  line-height: 50px;
+  color: #FFFFFF;
+  font-family: Courier New;
+  width: 200px;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 20px;
+  background-color: #DBD0C0;
+  text-shadow: 2px 2px 22px #082032;
+  border: solid #082032 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.BUTTON_ONN:hover {
+  background: #CEE5D0;
+  border: solid #082032 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #CEE5D0;
+}
+
+.footer-link {
+  font-weight: 700;
+  font-size: 1.25em;
+  margin: 5px 10px;
+}
